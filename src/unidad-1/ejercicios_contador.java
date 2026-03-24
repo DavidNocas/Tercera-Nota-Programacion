@@ -1,0 +1,13 @@
+public class ejercicios_contador {
+    public static void main(String[] args) {
+        int contador = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                contador++; 
+            }
+            
+            System.out.println("hay: " + contador + " numeros pares esta entre 1 y 100");
+        }
+    }
+}
